@@ -1,3 +1,7 @@
+
+pub mod day1;
+
 fn main() {
-    println!("Hello, world!");
+    let result = day1::part_one();
+    print!("{result}")
 }
